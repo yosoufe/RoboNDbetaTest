@@ -1,0 +1,8 @@
+prefix=/home/yousof/robotics/RoboND_betaTesting/catkin_ws/devel
+
+Name: ball_chaser
+Description: Description of ball_chaser
+Version: 0.0.0
+Cflags: -I/home/yousof/robotics/RoboND_betaTesting/catkin_ws/devel/include
+Libs: -L/home/yousof/robotics/RoboND_betaTesting/catkin_ws/devel/lib 
+Requires: 
