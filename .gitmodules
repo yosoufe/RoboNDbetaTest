@@ -7,3 +7,9 @@
 [submodule "catkin_ws2/src/robot_pose_ekf"]
 	path = catkin_ws2/src/robot_pose_ekf
 	url = https://github.com/udacity/robot_pose_ekf
+[submodule "catkin_ws2/src/odom_to_trajectory"]
+	path = catkin_ws2/src/odom_to_trajectory
+	url = https://github.com/udacity/odom_to_trajectory
+[submodule "catkin_ws2/src/turtlebot"]
+	path = catkin_ws2/src/turtlebot
+	url = https://github.com/turtlebot/turtlebot
