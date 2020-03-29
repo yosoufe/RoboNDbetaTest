@@ -1180,7 +1180,7 @@
     <state world_name='default'>
       <sim_time>228 712000000</sim_time>
       <real_time>0 0</real_time>
-      <wall_time>1585470855 111494908</wall_time>
+      <wall_time>1585471090 469396084</wall_time>
       <iterations>0</iterations>
       <model name='Construction Barrel'>
         <pose frame=''>-2.72862 6.14024 0 0 -0 0</pose>
@@ -1674,7 +1674,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>0.942509 -2.2804 2.27039 -0 0.9018 -1.29023</pose>
+        <pose frame=''>5.23757 5.37899 16.0317 -0 1.0658 -2.46223</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
