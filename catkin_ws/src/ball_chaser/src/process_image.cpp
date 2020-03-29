@@ -9,11 +9,11 @@ ros::ServiceClient client;
 void drive_robot(float lin_x, float ang_z)
 {
     //Request a service and pass the velocities to it to drive the robot
-	ball_chaser::DriveToTarget srv;
-	srv.request.linear_x = lin_x;
-	srv.request.angular_z = ang_z;
-	if(!client.call(srv))
-		ROS_ERROR("Failed to call service safe_move");
+    ball_chaser::DriveToTarget srv;
+    srv.request.linear_x = lin_x;
+    srv.request.angular_z = ang_z;
+    if (!client.call(srv))
+        ROS_ERROR("Failed to call service safe_move");
 }
 
 // This callback function continuously executes and reads the image data
@@ -28,31 +28,33 @@ void prcoess_image_callback(const sensor_msgs::Image img)
     // Request a stop when there's no white ball seen by the camera
 
     // Loop through each pixel in the image and check if its white
-    for (int i = 0; i < img.height * img.step; i++) {
-        if (img.data[i] == white_pixel) {// white is seen (just one channel)
-            int col = ( (i/3) % img.width) ;
-            if (col < img.width/3.0)
+    for (int i = 0; i < img.height * img.step; i++)
+    {
+        if (img.data[i] == white_pixel)
+        { // white is seen (just one channel)
+            int col = ((i / 3) % img.width);
+            if (col < img.width / 3.0)
             {
-            	// turn left
-            	drive_robot(0.0,0.5);
+                // turn left
+                drive_robot(0.0, 0.5);
             }
-            else if (col >= img.width/3.0 && col < 2 * img.width/3.0)
-            {   
-            	// go straight
-            	drive_robot(0.5,0.0);
+            else if (col >= img.width / 3.0 && col < 2 * img.width / 3.0)
+            {
+                // go straight
+                drive_robot(0.5, 0.0);
             }
-            else 
-            {	
-            	// turn right
-            	drive_robot(0.0,-0.5);
+            else
+            {
+                // turn right
+                drive_robot(0.0, -0.5);
             }
             return;
         }
     }
-    drive_robot(0,0);
+    drive_robot(0, 0);
 }
 
-int main(int argc, char** argv)
+int main(int argc, char **argv)
 {
     // Initialize the process_image node and create a handle to it
     ros::init(argc, argv, "process_image");
