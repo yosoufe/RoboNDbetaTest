@@ -6,3 +6,5 @@
     * [Sensors and State Estimation Course 2020 - Lectures](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQh_J16IMwDlji18SWQ2PZ6)
     * [Mobile Sensing and Robotics 2019 - Lectures](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQJXx-x0t23RmRbjp_yMb4v)
     * Photogrammetry (No Playlist yet. Uploaded as videos)
+    * [Github Page](https://github.com/PRBonn)
+    * [Institute Website](http://www.ipb.uni-bonn.de/)
