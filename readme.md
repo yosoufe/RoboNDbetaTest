@@ -8,3 +8,10 @@
     * Photogrammetry (No Playlist yet. Uploaded as videos)
     * [Github Page](https://github.com/PRBonn)
     * [Institute Website](http://www.ipb.uni-bonn.de/)
+
+
+# Some VM Commands
+A command to mount manually the shared folder in Guest from Host
+```
+sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
+```
