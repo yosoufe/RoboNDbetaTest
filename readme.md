@@ -11,7 +11,10 @@
 
 
 # Some VM Commands
-A command to mount manually the shared folder in Guest from Host
+A command to mount manually the shared folder in Guest from Host after setting it up in
+the vm manager:
+
 ```
+# in guest:
 sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
 ```

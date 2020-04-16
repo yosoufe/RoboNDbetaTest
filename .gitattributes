@@ -1,0 +1,5 @@
+catkin_ws_p4/rtabmap.db filter=lfs diff=lfs merge=lfs -text
+catkin_ws_p4/Project4Workspace.zip filter=lfs diff=lfs merge=lfs -text
+P3/P3_amcl.zip filter=lfs diff=lfs merge=lfs -text
+P3/vids_pics/P3_amcl.mp4 filter=lfs diff=lfs merge=lfs -text
+vids_pics/P3_amcl.mp4 filter=lfs diff=lfs merge=lfs -text

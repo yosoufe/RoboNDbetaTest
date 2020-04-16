@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <!-- launch world and rviz-->
+  <include file="$(find my_robot)/launch/world_p4.launch" />
+
+  <!--launch mapping-->
+  <include file="$(find project4)/launch/mapping.launch" />
+
+  <!--launch rviz-->
+  <include file="$(find project4)/launch/rviz.launch" />
+
+</launch>
