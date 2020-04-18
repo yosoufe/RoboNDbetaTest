@@ -37,3 +37,18 @@
 [submodule "C++WS/RoboND-A-Visualization"]
 	path = C++WS/RoboND-A-Visualization
 	url = https://github.com/udacity/RoboND-A-Visualization.git
+[submodule "catkin_ws_home_service_robot/src/slam_gmapping"]
+	path = catkin_ws_home_service_robot/src/slam_gmapping
+	url = https://github.com/ros-perception/slam_gmapping.git
+	branch = hydro-devel
+[submodule "catkin_ws_home_service_robot/src/turtlebot"]
+	path = catkin_ws_home_service_robot/src/turtlebot
+	url = https://github.com/turtlebot/turtlebot.git
+	branch = kinetic
+[submodule "catkin_ws_home_service_robot/src/turtlebot_interactions"]
+	path = catkin_ws_home_service_robot/src/turtlebot_interactions
+	url = https://github.com/turtlebot/turtlebot_interactions.git
+	branch = indigo
+[submodule "catkin_ws_home_service_robot/src/turtlebot_simulator"]
+	path = catkin_ws_home_service_robot/src/turtlebot_simulator
+	url = https://github.com/turtlebot/turtlebot_simulator

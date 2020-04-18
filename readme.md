@@ -8,6 +8,10 @@
     * Photogrammetry (No Playlist yet. Uploaded as videos)
     * [Github Page](https://github.com/PRBonn)
     * [Institute Website](http://www.ipb.uni-bonn.de/)
+Path Planning:
+    * https://www.cs.cmu.edu/~maxim/files/pathplanforMAV_icra13.pdf
+    * http://www.staff.science.uu.nl/~gerae101/pdf/compare.pdf
+    * 
 
 
 # Some VM Commands
