@@ -3,5 +3,6 @@
 
 # SLAM Testing:
 ```
-ros-kinetic-gmapping
+sudo apt install ros-kinetic-turtlebot-*
+
 ```
