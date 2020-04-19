@@ -77,25 +77,28 @@ When all parts of the map are covered, use the following command to save the map
 rosrun map_server map_saver -f outputFile
 ```
 
-#### Navigation:
-`test_navigation.sh` script is a demo of the navigation. To run it:
+Adaptive Monte Carlo Localization (AMCL) is used for localization.
+
+#### Localization and Navigation:
+`test_navigation.sh` script is a demo of the navigation and localization. To run it:
 ```
 cd catkin_ws_home_service_robot/src/scripts
 ./test_navigation.sh
 ```
-This script is using ROS Navigation stack under the hood which is being 
+This script is using ROS Navigation stack and Adaptive Monte Carlo 
+Localization (AMCL) for localization under the hood which is being 
 included in `catkin_ws_home_service_robot/src/integration/launch/amcl_demo.launch` file.
-It is using Dijkstra's algorithm which is a variant of the Uniform Cost Search algorithm, 
-while avoiding obstacles on its path.
+It is using Dijkstra's algorithm for navigation which is a variant of \
+the Uniform Cost Search algorithm, while avoiding obstacles on its path.
 
-After running the script, you can use rviz to set a target and robot should 
-move to that location like the gif below:
+After running the script, you can use rviz to set goal location and robot should 
+move to that selected location like the animation below:
 
 ![test_navigation](test_navigation.gif)
 
 I used this method to get the coordinates of some target points for the delivery and pickup zones. 
-It is enough to run the following command on a new terminal to echo the selected target positions 
-on the terminal
+It is enough to run the following command on a new terminal to echo the selected target locations 
+on the terminal.
 
 ```
 rostopic echo /move_base/goal 
@@ -136,7 +139,6 @@ goal:
         z: 0.443500324123
         w: 0.896274211669
 ```
-
 
 ## Extra Learning Resources:
 * http://wiki.ros.org/turtlebot/Tutorials/indigo
