@@ -57,6 +57,13 @@ source devel/setup.sh
 
 ### Used ROS Packages:
 
+#### TurtleBot (Meta)Packages:
+Different Turtlebot packages are being used to simulate and accomplish this project. Such as:
+* Turtlebot stack: https://github.com/turtlebot/turtlebot
+    * Including `turtlebot_teleop` package: http://wiki.ros.org/turtlebot_teleop
+* `turtlebot_rviz_launchers`: http://wiki.ros.org/turtlebot_rviz_launchers
+* `turtlebot_gazebo`: http://wiki.ros.org/turtlebot_gazebo
+
 #### Gmapping
 [Gmapping package](http://wiki.ros.org/gmapping) is used to create the map of the environment. The created maps can be found in the `maps` directory. The `src/maps/map3` was the best map that I could create. I tried mapping with different world models and parameters for gmapping package and `map3` was the best results.
 
