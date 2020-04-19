@@ -89,15 +89,19 @@ It is using Dijkstra's algorithm which is a variant of the Uniform Cost Search a
 while avoiding obstacles on its path.
 
 After running the script, you can use rviz to set a target and robot should 
-move to that location
+move to that location like the gif below:
 
-## Some Goal Numbers
-To echo the navigation goals that rviz is publishing:
+![test_navigation](test_navigation.gif)
+
+I used this method to get the coordinates of some target points for the delivery and pickup zones. 
+It is enough to run the following command on a new terminal to echo the selected target positions 
+on the terminal
+
 ```
 rostopic echo /move_base/goal 
 ```
 
-Some interesting goals:
+I have chosen the following poses:
 1. Pickup Zone
 ```
 goal: 
