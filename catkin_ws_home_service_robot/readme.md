@@ -1,6 +1,6 @@
 # Home Service Robot
 
-## Final Results:
+## Goal:
 Navigating to two different locations and virtually picking up and dropping objects.
 
 ![[YouTube Video](https://youtu.be/yLND5wDFcBc)](final_results.gif)
