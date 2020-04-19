@@ -7,4 +7,5 @@ xterm  -e  " source ../../devel/setup.sh; roslaunch turtlebot_rviz_launchers vie
 sleep 1
 xterm  -e  " source ../../devel/setup.sh; roslaunch turtlebot_teleop keyboard_teleop.launch ;bash" &
 sleep 5
-xterm  -e  " source ../../devel/setup.sh; roslaunch integration mapping.launch ;bash"
+#xterm  -e  " source ../../devel/setup.sh; roslaunch integration mapping.launch ;bash"
+xterm  -e  " source ../../devel/setup.sh; roslaunch turtlebot_gazebo gmapping_demo.launch ;bash"
