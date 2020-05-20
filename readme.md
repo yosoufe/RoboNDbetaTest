@@ -1,3 +1,26 @@
+# My Workspace for Robotics Software Engineer ND, Udacity
+
+# Projects:
+
+## Introduction to Gazebo
+https://github.com/yosoufe/RoboNDbetaTest/tree/master/P1
+
+## Localization using ROS
+https://github.com/yosoufe/RoboNDbetaTest/tree/master/catkin_ws/src/project3
+
+![](https://github.com/yosoufe/RoboNDbetaTest/blob/master/vids_pics/p3_amcl.png?raw=true)
+
+## Mapping and SLAM using ROS
+https://github.com/yosoufe/RoboNDbetaTest/tree/master/catkin_ws_p4
+![](https://github.com/yosoufe/RoboNDbetaTest/raw/master/catkin_ws_p4/LoopClosure65.png)
+
+## Planning and Navigation using ROS
+https://github.com/yosoufe/RoboNDbetaTest/tree/master/catkin_ws_home_service_robot
+![](https://github.com/yosoufe/RoboNDbetaTest/raw/master/catkin_ws_home_service_robot/test_navigation.gif)
+
+
+
+
 # Extra Resources:
 * [F1/10 Autonomous Racing](https://www.youtube.com/playlist?list=PL868twsx7OjddCq3az74hu6pVsuJJzXvP)
     * [Github Page](https://github.com/linklab-uva)
