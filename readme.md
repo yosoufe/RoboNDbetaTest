@@ -36,7 +36,6 @@ https://confirm.udacity.com/T4FKNM4E
 * Path Planning:
     * https://www.cs.cmu.edu/~maxim/files/pathplanforMAV_icra13.pdf
     * http://www.staff.science.uu.nl/~gerae101/pdf/compare.pdf
-    * 
 
 
 # Some VM Commands
